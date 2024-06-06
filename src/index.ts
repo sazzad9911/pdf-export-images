@@ -1,6 +1,6 @@
 import EventEmitter from 'node:events'
 import Path from 'node:path'
-import { getDocument, OPS, type PDFDocumentProxy } from 'pdfjs-dist'
+import { getDocument, OPS, type PDFDocumentProxy } from 'pdfjs-dist/legacy/build/pdf.mjs'
 import sharp from 'sharp'
 
 export interface Image {
